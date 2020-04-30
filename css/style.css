@@ -66,8 +66,8 @@ a {
     letter-spacing: 2px;
 }
 
-.main-nav__pages li,
-.page-footer__pages li {
+.main-nav__pages .site-list__link,
+.page-footer__pages .site-list__link {
     display: inline;
     margin-right: 50px;
 }
