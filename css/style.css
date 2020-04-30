@@ -66,14 +66,12 @@ a {
     letter-spacing: 2px;
 }
 
-.main-nav__pages .site-list__link,
-.page-footer__pages .site-list__link {
+.site-list__link {
     display: inline;
     margin-right: 50px;
 }
 
-.main-nav__pages li:nth-last-child(1),
-.page-footer__pages li:nth-last-child(1) {
+.site-list__link:nth-last-child(1) {
     margin: 0;
 }
 
@@ -283,7 +281,7 @@ a {
     border-top: 1px solid #FFFFFF;
 }
 
-.page-footer__social li {
+.page-footer__social .social__item {
     list-style: none;
 }
 
@@ -297,7 +295,7 @@ a {
     margin-bottom: 46px;
 }
 
-.social__icon {
+.social__item {
     width: 47px;
     height: 47px;
     background-color: #ffffff;
